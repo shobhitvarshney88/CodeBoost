@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Change the severity of hardcoded strings to "error" -->
+    <issue id="HardcodedText" severity="error" />
+    <!-- Turn off the 'UnusedResources' check -->
+    <issue id="UnusedResources" severity="ignore" />
+    <!-- Turn on a custom lint check for performance warnings -->
+    <issue id="PerformanceWarning" severity="error" />
+</lint>
